@@ -1,0 +1,41 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#parent0 {
+  width: 25%;
+  height: 10%;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  overflow: hidden;
+  align-items: center;
+}
+
+#parent0 > p {
+  position: absolute;
+  text-wrap: nowrap;
+}
+
+#parent1 {
+  width: 10%;
+  height: 25%;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  overflow: hidden;
+  align-items: center;
+}
+
+#parent1 > p {
+  position: absolute;
+  text-wrap: nowrap;
+}
